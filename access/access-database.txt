@@ -1,7 +1,0 @@
-AIzaSyDDbyEQIN0UfyFaZsnTJegjZZSa1SMw4qo
-dashboard-sobre-violencia.firebaseapp.com
-dashboard-sobre-violencia
-dashboard-sobre-violencia.appspot.com
-596297318510
-1:596297318510:web:0702e84b644ecfbae0267f
-${config.measurementId}
