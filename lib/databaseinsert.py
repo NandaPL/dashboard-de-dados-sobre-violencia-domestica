@@ -1,4 +1,5 @@
 import pyrebase
+import pandas as pd
 
 
 def connect_firebase():
@@ -22,8 +23,17 @@ def connect_firebase():
 
 
 def insert_data(data, child_principal, child_secundary):
+    ref = connect_firebase().child(child_principal).child(child_secundary)
+
     if child_principal == "Tweets_Crus":
-        ref = connect_firebase().child(child_principal).child(child_secundary)
         return ref.set(data)
     elif child_principal == "word_ranking":
         return ref.update(data)
+
+
+def get_database():
+    all_words = connect_firebase().child("word_ranking").get()
+
+    df_wordRanking = pd.DataFrame([word.val() for word in all_words.each()])
+
+    return df_wordRanking
