@@ -16,7 +16,7 @@ Foram utilizados para o desenvolvimeno desta parte do sistema:
   - <b>Biblioteca BeautifulSoup</b>;
    
 ## Pacotes necessários
-- Primeiramente: ter instalado o <b>Ananconda Python</b> para utilização das biblioteca.  
+- Primeiramente: ter instalado o <b>Ananconda Python</b> para utilização das bibliotecas.  
 - Digitar no terminal, 'pip install tweepy' ou '!pip install nltk' (para instalar o tweepy).
 - E digitar 'pip install nltk' (no arquivo "run-process.py" descomentar o '#nltk.download()').
 
