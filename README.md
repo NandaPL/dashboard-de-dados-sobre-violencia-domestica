@@ -17,5 +17,10 @@ Foram utilizados para o desenvolvimeno desta parte do sistema:
    
 ## Pacotes necessários
 - Primeiramente: ter instalado o <b>Ananconda Python</b> para utilização das biblioteca.  
-- Digitar no terminal, 'pip install tweepy' (para instalar o tweepy).
-- E digitar 'pip install nltk' e fazer .
+- Digitar no terminal, 'pip install tweepy' ou '!pip install nltk' (para instalar o tweepy).
+- E digitar 'pip install nltk' (no arquivo "run-process.py" descomentar o '#nltk.download()').
+
+## Rodar processamento
+- No terminal, digitar 'run-process.py' ou, ao instalar o repositório, somente executar o arquivo pelo botão de play do canto superior direito (▶)
+
+## ! Todo o processo de captura e tratamaneto se encontra nos jupyters notebooks para melhor visualização !
