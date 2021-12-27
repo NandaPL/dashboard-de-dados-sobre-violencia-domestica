@@ -8,6 +8,9 @@ import databaseinsert
 df = pd.read_json("./datas/tweet.json", lines=True)
 
 import nltk
+
+# nltk.download()
+
 import re
 from bs4 import BeautifulSoup
 from nltk.tokenize import TweetTokenizer
@@ -77,7 +80,6 @@ words = [
 ]
 df_wordcount = word_count.drop(words)
 df_wordcount.reset_index(inplace=True, drop=True)
-print(df_wordcount)
 
 # Configurando para dicionário para inserção no banco de dados
 word_ranking = df_wordcount.set_index("word").T.to_dict("list")
