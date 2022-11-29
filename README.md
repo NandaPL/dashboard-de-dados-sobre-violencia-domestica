@@ -1,5 +1,7 @@
 # Dashboard Sobre Violência Doméstica (Back-End)
 
+O objetivo deste trabalho é processar tweets do Twitter que estejam relacionados a violência doméstica, feminicídio e assédio de forma que possa ser verificado os assuntos e termos que mais se associam a estes assuntos.
+
 <b>Developers:</b>
 
 - <b>Name:</b> Fernanda Pinto Lopes (<b>Back-End</b>); <b>Email:</b> fpl.snf19@uea.du.br
